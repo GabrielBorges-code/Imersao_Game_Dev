@@ -7,11 +7,14 @@ class Personagem extends Animacao{
 
         this.velocidadeDoPulo = 0
         this.gravidade = 3
+        this.qtdPulo = 0
     }
 
     pula(){
-        console.log('pulou!')
-        this.velocidadeDoPulo = - 30
+        if(this.qtdPulo < 2) {
+            this.velocidadeDoPulo = - 30
+            this.qtdPulo++
+        }
     }
 
     aplicaGravidade(){
@@ -20,6 +23,8 @@ class Personagem extends Animacao{
 
         if(this.y > this.yInicial){
             this.y = this.yInicial
+            this.qtdPulo = 0 
+            
         }
     }
 
