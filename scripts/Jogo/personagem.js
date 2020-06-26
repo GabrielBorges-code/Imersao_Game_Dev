@@ -13,6 +13,7 @@ class Personagem extends Animacao{
     pula(){
         if(this.qtdPulo < 2) {
             this.velocidadeDoPulo = - 30
+            somDoPulo.play();
             this.qtdPulo++
         }
     }
@@ -29,7 +30,7 @@ class Personagem extends Animacao{
     }
 
     estaColidindo(inimigo){
-        const precisao = .7;
+        const precisao = .65;
         const colisao = collideRectRect(this.x, this.y, this.largura * precisao, this.altura * precisao, inimigo.x, inimigo.y, inimigo.largura * precisao, inimigo.altura * precisao);
 
         return colisao;
