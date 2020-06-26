@@ -100,7 +100,7 @@ function draw() {
     inimigo.move();
 
     if(personagem.estaColidindo(inimigo)){
-        image(imagemGameOver, ( width / 2 ) - 206, ( height / 2 ) - 39, 412, 350);
+        image(imagemGameOver, ( width / 2 ) - 206, ( height / 3 ) - 39, 412, 350);
         console.log('colidiu')
         somDoJogo.stop();
         somGameOver.play();
