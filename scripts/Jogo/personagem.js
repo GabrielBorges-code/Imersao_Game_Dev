@@ -6,9 +6,10 @@ class Personagem extends Animacao{
         this.y = this.yInicial;
 
         this.velocidadeDoPulo = 0;
-        this.gravidade = 4;
+        this.gravidade = 6;
         this.qtdPulo = 0;
         this.alturaDoPulo = -38;
+        this.invencivel = false; 
 
     }
 
@@ -30,8 +31,18 @@ class Personagem extends Animacao{
             
         }
     }
+    tornarInvencivel() {
+        this.invencivel = true;
+        setTimeout(() => {
+            this.invencivel = false;
+        }, 1000)
+    }
 
     estaColidindo(inimigo){
+        if(this.invencivel) {
+            return false;
+        }
+
         const precisao = .65;
         noFill()
 
