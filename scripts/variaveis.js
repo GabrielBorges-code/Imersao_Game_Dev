@@ -4,6 +4,9 @@ let imagemInimigo;
 let imagemInimigoGrande;
 let imagemInimigoVoador;
 let imagemGameOver;
+let imagemTelaInicial;
+
+let fonteTelaInicial;
 
 let somDoPulo
 let somDoJogo;
@@ -22,6 +25,7 @@ let jogo;
 let telaInicial;
 let cenaAtual = 'telaInicial';
 let cenas;
+let botaoGerenciador;
 
 const inimigos = [];
 
