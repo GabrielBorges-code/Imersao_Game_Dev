@@ -1,4 +1,4 @@
-# Imersão Game_Dev [Alura](www.alura.com.br)
+# Imersão Game_Dev Alura
 
 Esse jogo está sendo desenvolvido utilizando JavaScript.
 
