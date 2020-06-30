@@ -24,6 +24,7 @@ let vida;
 let pontuacao;
 
 let jogo;
+let fita;
 
 let telaInicial;
 let cenaAtual = 'jogo';

@@ -15,5 +15,7 @@ function preload(){
     somDoPulo = loadSound('../assets/sons/jump.mp3');
     somGameOver = loadSound('../assets/sons/fail.mp3');
     somApanhou = loadSound('../assets/sons/cut.mp3');
+
+    fita = loadJSON('../fita/fita.json');
    
 }
