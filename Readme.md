@@ -1,7 +1,11 @@
-# Imersão Game_Dev Alura
+# 🎮 Imersão Game_Dev Alura
 
-Esse jogo está sendo desenvolvido utilizando JavaScript.
+Game_Dev foi um evento da Alura que teve como proósito o desenvolvimento de um jogo.
 
-O jogo conta a história da Bruxa 'Hipster'.
+O jogo foi criado utilizando JavaScript e a biblioteca P5JS.  
 
-![bruxa](https://user-images.githubusercontent.com/63865025/85480891-2bef1780-b597-11ea-970e-66f6d3195816.png)
+👨‍💻 Para jogar basta adicionar a extensão *Live Server* no VS Code
+
+## 🎮 O Game
+
+![game_dev](https://user-images.githubusercontent.com/63865025/89853311-78061380-db67-11ea-8931-603b9e7835a5.png)
